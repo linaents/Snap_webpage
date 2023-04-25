@@ -1,33 +1,57 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Business</title>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
     <header>
-      <h1>Welcome to My Website</h1>
+      <h1>Welcome to My Business</h1>
     </header>
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Our Services</a></li>
+        <li><a href="#gallery">Photo Gallery</a></li>
+        <li><a href="#contact">Contact Us</a></li>
       </ul>
     </nav>
     <main>
       <section id="about">
         <h2>About Us</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget accumsan magna. Nullam sollicitudin magna auctor quam pharetra, a fringilla ex pharetra.</p>
       </section>
       <section id="services">
         <h2>Our Services</h2>
         <ul>
-          <li>Service 1</li>
-          <li>Service 2</li>
-          <li>Service 3</li>
+          <li>
+            <h3>Service 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget accumsan magna.</p>
+          </li>
+          <li>
+            <h3>Service 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget accumsan magna.</p>
+          </li>
+          <li>
+            <h3>Service 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget accumsan magna.</p>
+          </li>
+          <li>
+            <h3>Service 4</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget accumsan magna.</p>
+          </li>
         </ul>
+      </section>
+      <section id="gallery">
+        <h2>Photo Gallery</h2>
+        <div class="gallery">
+          <img src="img/photo1.jpg" alt="Photo 1">
+          <img src="img/photo2.jpg" alt="Photo 2">
+          <img src="img/photo3.jpg" alt="Photo 3">
+          <img src="img/photo4.jpg" alt="Photo 4">
+        </div>
       </section>
       <section id="contact">
         <h2>Contact Us</h2>
@@ -46,7 +70,8 @@
       </section>
     </main>
     <footer>
-      <p>&copy; 2023 My Website</p>
+      <p>&copy; 2023 My Business</p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
