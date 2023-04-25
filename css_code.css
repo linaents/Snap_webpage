@@ -5,8 +5,8 @@ body {
 }
 
 header {
-  background-color: #fff;
-  border-bottom: 1px solid #ccc;
+  background-color: #4B0082;
+  border-bottom: 1px solid #4B0082;
   padding: 20px;
 }
 
@@ -50,8 +50,8 @@ img {
 }
 
 button {
-  background-color: #007bff;
-  color: #fff;
+  background-color: #0000FF;
+  color: #0000FF;
   padding: 10px 20px;
   border: none;
   border-radius: 4px;
@@ -60,11 +60,11 @@ button {
 }
 
 button:hover {
-  background-color: #0069d9;
+  background-color: #0000FF;
 }
 
 footer {
-  background-color: #fff;
+  background-color: #0000FF;
   border-top: 1px solid #ccc;
   padding: 20px;
   text-align: center;
