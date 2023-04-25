@@ -1,77 +1,48 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Business</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
       <h1>Welcome to My Business</h1>
     </header>
-    <nav>
+
+    <section id="about">
+      <h2>About the Business</h2>
+      <p>Insert some text here describing the business.</p>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
       <ul>
-        <li><a href="#about">About Us</a></li>
-        <li><a href="#services">Our Services</a></li>
-        <li><a href="#gallery">Photo Gallery</a></li>
-        <li><a href="#contact">Contact Us</a></li>
+        <li>
+          <h3>Service 1</h3>
+          <img src="service1.jpg" alt="Service 1">
+          <p>Insert some text here describing the service.</p>
+        </li>
+        <li>
+          <h3>Service 2</h3>
+          <img src="service2.jpg" alt="Service 2">
+          <p>Insert some text here describing the service.</p>
+        </li>
+        <li>
+          <h3>Service 3</h3>
+          <img src="service3.jpg" alt="Service 3">
+          <p>Insert some text here describing the service.</p>
+        </li>
       </ul>
-    </nav>
-    <main>
-      <section id="about">
-        <h2>About Us</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget accumsan magna. Nullam sollicitudin magna auctor quam pharetra, a fringilla ex pharetra.</p>
-      </section>
-      <section id="services">
-        <h2>Our Services</h2>
-        <ul>
-          <li>
-            <h3>Service 1</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget accumsan magna.</p>
-          </li>
-          <li>
-            <h3>Service 2</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget accumsan magna.</p>
-          </li>
-          <li>
-            <h3>Service 3</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget accumsan magna.</p>
-          </li>
-          <li>
-            <h3>Service 4</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget accumsan magna.</p>
-          </li>
-        </ul>
-      </section>
-      <section id="gallery">
-        <h2>Photo Gallery</h2>
-        <div class="gallery">
-          <img src="img/photo1.jpg" alt="Photo 1">
-          <img src="img/photo2.jpg" alt="Photo 2">
-          <img src="img/photo3.jpg" alt="Photo 3">
-          <img src="img/photo4.jpg" alt="Photo 4">
-        </div>
-      </section>
-      <section id="contact">
-        <h2>Contact Us</h2>
-        <form>
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required><br>
+    </section>
 
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required><br>
+    <button onclick="location.href='https://www.example.com'">Visit Example</button>
 
-          <label for="message">Message:</label>
-          <textarea id="message" name="message" required></textarea><br>
-
-          <input type="submit" value="Submit">
-        </form>
-      </section>
-    </main>
     <footer>
-      <p>&copy; 2023 My Business</p>
+      <p>&copy; 2023 My Business. All rights reserved.</p>
     </footer>
-    <script src="script.js"></script>
+
+    <script>
+      // Insert JavaScript here to display if the business is currently open or closed
+    </script>
   </body>
 </html>
